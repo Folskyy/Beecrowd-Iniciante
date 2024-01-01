@@ -8,7 +8,7 @@ int main(){
 
     while(num){
         i = num % 10;
-        num = num / 10;
+        num /= 10;
         printf("%d", i);
     }
     printf("\n");
